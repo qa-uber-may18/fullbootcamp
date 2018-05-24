@@ -7,8 +7,6 @@ public class VehicleInsurancePolicy {
 	private String carBrand;
 	private int collisionsNumber;
 	private double monthlyPayment;
-
-        private double carMileage; // add attribute for Git exercises
 	
 	public VehicleInsurancePolicy(String name, int year, String   brand, int collisions, 
 			double payment) {
