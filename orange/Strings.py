@@ -1,12 +1,5 @@
 
-str1 = "I am a STring"
 
-#print the entire string
-print(str1)
-
-#print a particular element  at an index
-
-print(str1[3])
 
 #slicing
 
