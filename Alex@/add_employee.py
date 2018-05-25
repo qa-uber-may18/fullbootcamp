@@ -28,7 +28,7 @@ class AddEmployee(unittest.TestCase):
         sleep(2)
 
         welcome_text = driver.find_element_by_id('welcome').text
-        self.assertEqual('Welcome Admin', welcome_text)
+        self.assertEqual('Welcome Admin Alex', welcome_text)
 
         # Click the Add button
         driver.find_element_by_id("btnAdd").click()
