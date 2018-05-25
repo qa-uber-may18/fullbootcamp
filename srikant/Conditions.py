@@ -16,9 +16,9 @@ else:
     print("both the values are not equal")
 
 if a > b:
-    print("a is greater than b")
+    print("a's value is greater than b")
 else:
-    print("a is less than or equals to b")
+    print("a's value is less than or equals to b")
 
 
 #nested if
