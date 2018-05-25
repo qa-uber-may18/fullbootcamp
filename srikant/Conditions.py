@@ -11,9 +11,9 @@ b = 2
 #Decision making (pay attention to the indentaion
 #after if statement)
 if a == b:
-    print("both are equal")
+    print("both the values are equal")
 else:
-    print("both are not equal")
+    print("both the values are not equal")
 
 if a > b:
     print("a is greater than b")
