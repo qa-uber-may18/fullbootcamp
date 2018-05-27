@@ -9,6 +9,7 @@ package testpackage;
 +	private double monthlyPayment;
 
 	private double carMileage; //- for Git practice
+	private String sportClass; // - for Git practice
 +
 +	public VehicleInsurancePolicy(String name, int year, String   brand, int collisions, 
 +			double payment) {
