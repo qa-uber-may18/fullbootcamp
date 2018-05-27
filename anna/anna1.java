@@ -2,9 +2,12 @@ package testpackage;
 
 public class TestVehicleInsuarancePolicy {
 
+
+
 	public static void main(String[] args) {
 		
 		System.out.println("Program test");
+		System.out.println("Changes for Git exercises");
 		
 		VehicleInsurancePolicy anna = 
 		new VehicleInsurancePolicy("Anna", 2015, "Mazda", 0, 100);
