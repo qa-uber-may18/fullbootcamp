@@ -7,7 +7,9 @@ package testpackage;
 +	private String carBrand;
 +	private int collisionsNumber;
 +	private double monthlyPayment;
-+	
+
+	private double carMileage; //- for Git practice
++
 +	public VehicleInsurancePolicy(String name, int year, String   brand, int collisions, 
 +			double payment) {
 +		this.ownerName = name;
