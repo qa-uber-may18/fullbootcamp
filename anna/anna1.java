@@ -9,6 +9,7 @@ public class TestVehicleInsuarancePolicy {
 		System.out.println("Program test");
 		System.out.println("Changes for Git exercises");
 		System.out.println("More changes for Git tracking");
+		System.out.println("Added one more code line for Git practice");
 		
 		VehicleInsurancePolicy anna = 
 		new VehicleInsurancePolicy("Anna", 2015, "Mazda", 0, 100);
