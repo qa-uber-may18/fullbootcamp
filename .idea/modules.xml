@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/QAUBER.iml" filepath="$PROJECT_DIR$/.idea/modules/QAUBER.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/QAUBER_main.iml" filepath="$PROJECT_DIR$/.idea/modules/QAUBER_main.iml" group="QAUBER" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/QAUBER_test.iml" filepath="$PROJECT_DIR$/.idea/modules/QAUBER_test.iml" group="QAUBER" />
+    </modules>
+  </component>
+</project>
