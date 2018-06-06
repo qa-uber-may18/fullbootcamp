@@ -13,14 +13,14 @@ public class CitiBankAccountImpl implements TestBankInterface {
     public static void main(String[] args) {
 
 
-        TestBankInterface alla = new CitiBankAccountImpl(1222, 1, "alla");
-        TestBankInterface rob = new CitiBankAccountImpl(1223, 1, "rob");
-        TestBankInterface vany = new CitiBankAccountImpl(1224, 1, "vany");
-        TestBankInterface lena = new CitiBankAccountImpl(1225, 1, "lena");
-        TestBankInterface peter = new CitiBankAccountImpl(1226, 1, "peter");
+        TestBankInterface alla = new CitiBankAccountImpl(1222, 1000, "alla");
+        TestBankInterface rob = new CitiBankAccountImpl(1223, 2000, "rob");
+        TestBankInterface vany = new CitiBankAccountImpl(1224, 3000, "vany");
+        TestBankInterface lena = new CitiBankAccountImpl(1225, 2500, "lena");
+        TestBankInterface peter = new CitiBankAccountImpl(1226, 1100, "peter");
 
-        TestBankInterface steve = new HSBSBankAccountImpl(123, 1, "steve") {
-        };
+        TestBankInterface steve = new HSBSBankAccountImpl(123, 1200, "steve"); {
+        }
 
         TestBankInterface[] bankAccount = {alla, rob, vany, lena, peter, steve};
 
@@ -30,12 +30,14 @@ public class CitiBankAccountImpl implements TestBankInterface {
 //        bankAccount[2] = vany;
 //        bankAccount[3] = lena;
 //        bankAccount[4] = peter;
+//        bankAccount[5] = steve;
 
         double result = 0;
 
-        for (int i = 0; i < bankAccount.length; i++) {
+        for (int i = 0; i <= bankAccount.length; i++) {
+
             double x = bankAccount[i].getBalance();
-            if(i >= 5) {
+            if(i <= 5) {
                 result = result + x;
                 System.out.println(result);
             }
