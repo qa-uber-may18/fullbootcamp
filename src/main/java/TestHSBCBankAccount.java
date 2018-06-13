@@ -3,7 +3,7 @@ public class TestHSBCBankAccount extends HSBCBankAccount {
         super(accountNumber, balance, customerName);
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InsufficientBalanceException {
 
 
         TestHSBCBankAccount alla = new TestHSBCBankAccount(1222, 3000, "alla");
@@ -22,7 +22,7 @@ public class TestHSBCBankAccount extends HSBCBankAccount {
 
 
         for (int i = 0; i <= 4; i++) {
-            bankHSBCAccount[i].withdraw(50.00);
+  //          bankHSBCAccount[i].withdraw(50.00);
 
             double x = bankHSBCAccount[i].getBalance();
             System.out.println(x);

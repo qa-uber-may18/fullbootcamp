@@ -1,24 +1,11 @@
-/**
- * HSBCBankAccount - accounts information class
- */
+package bankAccount;
+
 public class HSBCBankAccount {
-    /**
-     * This account number will be unique for each customer
-     */
     private int accountNumber;
-    /**
-     * This balance will given current number of money for each account
-     */
     private double balance;
     private String customerName;
     private boolean active;
 
-    /**
-     * This constructor use to create HSBCBankAccount objects
-     * @param accountNumber
-     * @param balance
-     * @param customerName
-     */
     public HSBCBankAccount(int accountNumber, double balance, String customerName) {
         this.accountNumber = accountNumber;
         this.balance = balance;
@@ -34,12 +21,6 @@ public class HSBCBankAccount {
             System.out.println(amount);
     }
 
-    /**
-     * This method will allow customer to withdraw money
-     * @param amount
-     * @throws InsufficientBalanceException
-     * @throws InactiveAccountExcepation
-     */
     public void withdraw(double amount) throws InsufficientBalanceException, InactiveAccountExcepation {
         if(! active){
             InactiveAccountExcepation d =new InactiveAccountExcepation();
@@ -55,10 +36,6 @@ public class HSBCBankAccount {
         }
     }
 
-    /**
-     * This method will allow customer to deposit money
-     * @param amount
-     */
     public void deposit(double amount){
         balance = balance + amount;
     }

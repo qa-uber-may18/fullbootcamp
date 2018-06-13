@@ -4,6 +4,12 @@ public class CitiBankAccountImpl implements TestBankInterface {
      private String customerName;
      private double amount;
 
+    /**
+     * CitiBankAccount - accounts constructor
+     * @param accountNumber
+     * @param balance
+     * @param customerName
+     */
     public CitiBankAccountImpl(int accountNumber, double balance, String customerName) {
         this.accountNumber = accountNumber;
         this.balance = balance;
@@ -11,7 +17,9 @@ public class CitiBankAccountImpl implements TestBankInterface {
     }
 
     public static void main(String[] args) {
-
+/**
+ * CitiBankAccount - ArrayList
+ */
 
         TestBankInterface alla = new CitiBankAccountImpl(1222, 1000, "alla");
         TestBankInterface rob = new CitiBankAccountImpl(1223, 2000, "rob");
@@ -34,20 +42,22 @@ public class CitiBankAccountImpl implements TestBankInterface {
 
         double result = 0;
 
-        for (int i = 0; i <= bankAccount.length; i++) {
+        for (int i = 0; i < bankAccount.length; i++) {
 
             double x = bankAccount[i].getBalance();
-            if(i <= 5) {
+
                 result = result + x;
-                System.out.println(result);
-            }
+
 
 //            System.out.println(x);
 //            String name = bankAccount[5].getCustomerName();
 //            System.out.println(name);
-        }
+        }                System.out.println(result);
 
 
+/**
+ * This is methods from HSBCBankAccount class
+ */
 
     }
 

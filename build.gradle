@@ -11,6 +11,8 @@ dependencies {
     compile("org.uncommons:reportng:1.1.2") {
         exclude group: "org.testng", module: "testng"
     }
+    compile 'com.google.guava:guava:25.1-jre'
+    // or, for Android:
     compile "com.jcraft:jsch:0.1.44-1"
     compile "org.seleniumhq.selenium:selenium-java:3.6.0"
     //compile "org.seleniumhq.selenium:selenium-java:2.53.0"
