@@ -5,14 +5,19 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.Test;
 
 
 import java.awt.*;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
 
+@Test
+
 public class TestChromeDriver {
-    public static void main(String[] args) throws InterruptedException {
+//    public static void main(String[] args) throws InterruptedException {
+
+    public  void test1 () throws InterruptedException {
         System.setProperty("webdriver.chrome.driver", "/Users/aovchar/Desktop/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
